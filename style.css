@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.barra-navegacion{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f43127;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.barra-navegacion img{
+    margin-right: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+
+.menu a:hover{
+    color: rgb(239, 194, 49);
+}
+
+.ordenar{
+    border: 1px solid white;
+    border-radius: 45px;
+    padding: 5px 20px;
+}
+
+.menu .ordenar:hover{
+    background-color: white;
+    color: #f43127 ;
+}
+
+.menu .tel{
+    color:  rgb(239, 194, 49);
+}
+
+.seccion1{
+    margin-top: 80px;
+    background-image: url(src/bg-01.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.titulo{
+    width: 50%;
+    margin-top: 30px;
+    position: absolute;
+    align-items: center;
+    padding: 80px;
+}
+
+.titulo1{
+    color: #f43127;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    color: black;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.titulo p{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.btn{
+    border-radius: 30px;
+    background-color: #f43127;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 25px;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.imagen{
+    margin-left: 50%;
+    width: 50%;
+    margin-top: 30px;
+    position: absolute;
+    align-items: center;
+    padding: 50px;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+.seccion2{
+    width: 100%;
+    height: 600px;
+    display: inline-flex;
+    place-content: center;
+    align-items: center;
+}
+
+.comida{
+    width: 23%;
+    height: 450px;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+}
+
+.comida:hover{
+    background-color: #ffc107;
+    transition: 0.4s;
+    transform: scale(1.1);
+    color: white;
+}
+
+.comida:hover a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #f43127;
+    padding: 1dvi 30px;
+    border-radius: 30px;
+}
+
+.comida:hover a:hover{
+    opacity: 0.8;
+}
+
+.comida img{
+    background-color: #f43127;
+    padding: 40px;
+    width: 100%;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.comida h3{
+    font-size: 25px;
+    margin: 10px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.comida a{
+    color: white;
+}
+
+.seccion3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.cliente{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    padding: 50px;
+}
+
+.cliente img{
+    width: 100%;
+}
+
+.comentario{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    padding: 50px;
+}
+
+.comentario h2{
+    color: #f43127;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.comentario h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.comentario p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.comentario h3{
+    font-size: 23px;
+}
+
+.comentario h4{
+    font-size: 15px;
+}
+
+.pie-pagina{
+    background-image: url(src/foo-img-001.png);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.contenedor-pie{
+    margin-top: 50px;
+    width: 25%;
+    height: 300px;
+    padding: 15px;
+}
+
+.contenedor-peque{
+    width: 100%;
+    height: 125px;
+}
+
+.pie-pagina h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pie-pagina p{
+   font-size: 18px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-peque i{
+    margin: 7px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.contenedor-peque img{
+    width: 80%;
+}
+
+.metodos-pago{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-menu{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-image: url(src/cb-01.png);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.titulo-menu h1{
+    padding-top: 75px;
+}
+
+.contenedor-menu{
+    margin: 10px;
+    background-image: url(src/bg-01.jpg);
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.cont{
+    width: 80%;
+    display: flex ;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.cont .pizza{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width:30%;
+    padding: 15px;
+    margin: 20px 15px;
+}
+
+.pizza .precio{
+    display: flex;
+    place-content: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.precio button{
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background-color: #1ac143;
+    cursor: pointer;
+}
+
+.precio button:hover{
+    background-color: #1d1ac1;
+    color: white;
+}
+
+input[type="number"]{
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    color: white;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+.metodo{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}

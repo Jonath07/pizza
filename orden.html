@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav class="barra-navegacion">
+        <img src="src/logo.png" alt="Logo">
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Reserva</a>
+            <a href="#" class="tel">Tel:48342174</a>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <input type="number" id="cant" value="0" disabled>
+            <a href="orden.html" class="ordenar">Ordenar</a>
+        </div>
+    </nav>
+
+    <main class="contenido">
+        <div class="titulo-menu">
+            <h1>Orden de Compra</h1>
+        </div>
+        <div class="contenedor-menu">
+            <h1>Llena el formulario de envio</h1>
+        <div class="orden-compra">
+            <form action="index.html">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+                <label for="direccion">Direccion:</label><br>
+                <input type="text" id="direccion" name="direccion" placeholder="Direccion"><br>
+                <label for="metodo">Metodo de pago:</label><br>
+                <select name="metodo" id="metodo" class="metodo">
+                    <option value="1">Efectivo</option>
+                    <option value="1">Tarjeta</option>
+                    <option value="1">Transferencia</option>
+                </select><br>
+                <input type="submit" value="Ordenar">
+              </form> 
+        </div> 
+
+
+            
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor-pie">
+            <div class="contenedor-peque">
+                <h3>DIRECCION</h3>
+                <p>km 121.5 Carretera al Atlántico, Teculután Zacapa.</p>
+            </div>
+            <div class="contenedor-peque">
+                <h3>REDES SOCIALES</h3>
+                <div class="iconos">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-github-square"></i>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-pie">
+            <h3>SOBRE NOSOTROS</h3>
+            <p>Soy estudiates de octavo semestres de Ingenieria en Sistemas. Este sitio esta creado como practica del curso de Desarrollo Web, sitio hecho por su servidor: Jonathan Josue</p>
+        </div>
+        <div class="contenedor-pie">
+            <h3>PROPOSITO</h3>
+            <p>El propósito de la tarea es demostrar las habilidades adquiridas durante la clase sobre HTML, CSS y JavaScript. Demostraremos el funcionamiento de la pagina, para navegar entre pestañas y otras funciones.</p>
+        </div>
+        <div class="contenedor-pie">
+            <div class="contenedor-peque">
+                <h3>NOTICIAS</h3>
+                <p>Este fin de mes, habran muchas ofertas nuevas. Te esperamos con las mejores ofertas, no faltes.</p> 
+            </div>
+            <div class="contenedor-peque">
+                <h3>METODOS DE PAGO</h3>
+                <div class="metodos-pago">
+                    <img src="src/metodos.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
